@@ -15,8 +15,6 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 
-	// database_name := "im_sahil"
-	// database_password := "sahilsarwar"
 	database_name := os.Getenv("DATABASE_USERNAME")
 	database_password := os.Getenv("DATABASE_PASSWORD")
 
